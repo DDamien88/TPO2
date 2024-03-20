@@ -6,9 +6,9 @@ package tpo2.entidades;
 
 /**
  *
- * @author Damián
+ * @author litob
  */
-public class Cliente {
+public class CarlosBaeza {
+   //Clase  CarlosBaeza
     
-   
 }
