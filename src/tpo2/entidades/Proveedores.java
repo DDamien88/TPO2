@@ -8,12 +8,13 @@ package tpo2.entidades;
  *
  * @author Carlos Baeza
  */
-public class Empleados {
+public class Proveedores {
     private String nombre;
-    private int edad;
-    public Empleados(String nombre, int edad) {
+    private int contacto;
+
+    public Proveedores(String nombre, int contacto) {
         this.nombre = nombre;
-        this.edad = edad;
+        this.contacto = contacto;
     }
 
     public String getNombre() {
@@ -24,12 +25,12 @@ public class Empleados {
         this.nombre = nombre;
     }
 
-    public int getEdad() {
-        return edad;
+    public int getContacto() {
+        return contacto;
     }
 
-    public void setEdad(int edad) {
-        this.edad = edad;
+    public void setContacto(int contacto) {
+        this.contacto = contacto;
     }
     
 }
