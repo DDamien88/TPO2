@@ -9,5 +9,5 @@ package tpo2.entidades;
  * @author watan
  */
 public class Producto {
-    
+    private int precio;
 }
