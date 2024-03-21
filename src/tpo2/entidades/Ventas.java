@@ -1,9 +1,7 @@
 
 package tpo2.entidades;
 
-/**
- * @author Ferrando Carlos
- */
+
 public class Ventas {
     private String  factura;
     private int numeroFactura;
@@ -27,6 +25,12 @@ public class Ventas {
 
     public void setNumeroFactura(int numeroFactura) {
         this.numeroFactura = numeroFactura;
+    }
+
+    @Override
+    public String toString() {
+        return "Ventas{" + "factura=" + factura + ", numeroFactura=" + numeroFactura + '}';
+        
     }
     
     
