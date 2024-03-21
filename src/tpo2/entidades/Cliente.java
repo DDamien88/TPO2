@@ -9,6 +9,8 @@ package tpo2.entidades;
  * @author Damián
  */
 public class Cliente {
-    
-   
+
+    private String Nombre;
+    private String direccion;
+
 }
